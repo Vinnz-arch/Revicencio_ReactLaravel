@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Link } from "react-router-dom";
 import { PATHS } from "../../routes/path";
@@ -23,7 +24,7 @@ const Navbar: React.FC<NavbarProps> = ({ onMenuClick }) => {
             </span>
             <Link to={PATHS.APP.DASHBOARD} className="flex gap-3 items-center">
               <img src={Logo} alt="App Logo"/>
-              <span className="text-text font-black text-lg tracking-tighter uppercase italic hidden sm:block">FEGURO ReactLaravel</span>
+              <span className="text-text font-black text-lg tracking-tighter uppercase italic hidden sm:block">Revicencio ReactLaravel</span>
             </Link>
           </div>
         </div>

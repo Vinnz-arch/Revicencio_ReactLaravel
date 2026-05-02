@@ -37,7 +37,7 @@ export const LoadingSpinner: React.FC<LoadingSpinnerProps> = ({
       </div>
 
       {text && (
-        <span className="text-[10px] font-bold tracking-[0.15em] uppercase whitespace-nowrap">
+        <span className="text-xs font-bold tracking-[0.15em] uppercase whitespace-nowrap">
           {text}
         </span>
       )}
